@@ -1,60 +1,34 @@
 # DBA Challenge 20240802
 
+## Descrição
 
-## Introdução
+Este projeto é parte do desfio proposto pela codesh com objetivo de analisar a base de dados  Bike Stores Inc. 
 
-Nesse desafio trabalharemos utilizando a base de dados da empresa Bike Stores Inc com o objetivo de obter métricas relevantes para equipe de Marketing e Comercial.
+Foi proposto o desafio de criar consultas para análise e busca de informações e métricas que tem relevancia para os times de maketing e comercial.
 
-Com isso, teremos que trabalhar com várioas consultas utilizando conceitos como `INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`, `GROUP BY` e `COUNT`.
+## Como clonar este repositório
 
-### Antes de começar
- 
-- O projeto deve utilizar a Linguagem específica na avaliação. Por exempo: SQL, T-SQL, PL/SQL e PSQL;
-- Considere como deadline da avaliação a partir do início do teste. Caso tenha sido convidado a realizar o teste e não seja possível concluir dentro deste período, avise a pessoa que o convidou para receber instruções sobre o que fazer.
-- Documentar todo o processo de investigação para o desenvolvimento da atividade (README.md no seu repositório); os resultados destas tarefas são tão importantes do que o seu processo de pensamento e decisões à medida que as completa, por isso tente documentar e apresentar os seus hipóteses e decisões na medida do possível.
- 
- 
+1. Clonar repositório:
+```bash
+git clone https://github.com/aragy/db-challenge-20240802.git
+```
+## Tecnologia Usada
+Neste desafio foi usado consultas SQL.
 
-## O projeto
+## Modelo de Dados:
 
-- Criar as consultas utilizando a linguagem escolhida;
-- Entregar o código gerado do Teste.
+O modelo de dados usado neste desafio tem o seguinte diagrama ER:
 
-### Modelo de Dados:
+![<img src="/samples/model.png" height="500" alt="Modelo" title="Modelo"/>](/samples/model.png)
 
-Para entender o modelo, revisar o diagrama a seguir:
+## Consultas Implementadas
 
-![<img src="samples/model.png" height="500" alt="Modelo" title="Modelo"/>](samples/model.png)
-
-
-## Selects
-
-Construir as seguintes consultas:
-
-- Listar todos Clientes que não tenham realizado uma compra;
-- Listar os Produtos que não tenham sido comprados
-- Listar os Produtos sem Estoque;
-- Agrupar a quantidade de vendas que uma determinada Marca por Loja. 
-- Listar os Funcionarios que não estejam relacionados a um Pedido.
-
-## Readme do Repositório
-
-- Deve conter o título do projeto
-- Uma descrição sobre o projeto em frase
-- Deve conter uma lista com linguagem, framework e/ou tecnologias usadas
-- Como instalar e usar o projeto (instruções)
-- Não esqueça o [.gitignore](https://www.toptal.com/developers/gitignore)
-- Se está usando github pessoal, referencie que é um challenge by coodesh:  
-
->  This is a challenge by [Coodesh](https://coodesh.com/)
-
-## Finalização e Instruções para a Apresentação
-
-1. Adicione o link do repositório com a sua solução no teste
-2. Verifique se o Readme está bom e faça o commit final em seu repositório;
-3. Envie e aguarde as instruções para seguir. Caso o teste tenha apresentação de vídeo, dentro da tela de entrega será possível gravar após adicionar o link do repositório. Sucesso e boa sorte. =)
+1. Listar todos Clientes que não tenham realizado uma compra [sql_scripts/query_1.sql]
+2. Listar os Produtos que não tenham sido comprados [sql_scripts/query_2.sql]
+3. Listar os Produtos sem Estoque [sql_scripts/query_3.sql]
+4. Agrupar a quantidade de vendas que uma determinada Marca por Loja [sql_scripts/query_4.sql]
+5. Listar os Funcionarios que não estejam relacionados a um Pedido [sql_scripts/query_5.sql]
 
 
-## Suporte
 
-Para tirar dúvidas sobre o processo envie uma mensagem diretamente a um especialista no chat da plataforma. 
+This is a challenge by [Coodesh](https://coodesh.com/)
